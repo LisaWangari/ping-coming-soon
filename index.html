@@ -37,63 +37,67 @@
     </style>
   </head>
   <body>
-    <header class="headerContainer">
-      <img class="headerLogo" src="images/logo.svg" />
-    </header>
-    <h1 class="launchHeader">
-      We are launching <span class="launchSpan">soon!</span>
-    </h1>
-    <h3 class="subHeader">
-      Subscribe and get notified
-    </h3>
-    <section class="inputSection">
-      <div class="inputGroup">
-        <input
-          class="notifyInput"
-          id="notify_input"
-          placeholder="Your email address..."
+    <main>
+      <header class="headerContainer">
+        <img class="headerLogo" src="images/logo.svg" />
+      </header>
+      <h1 class="launchHeader">
+        We are launching <span class="launchSpan">soon!</span>
+      </h1>
+      <h3 class="subHeader">
+        Subscribe and get notified
+      </h3>
+      <section class="inputSection">
+        <div class="inputGroup">
+          <input
+            class="notifyInput"
+            id="notify_input"
+            placeholder="Your email address..."
+          />
+          <small class="notifyError" id="notify_error"
+            >Please provide a valid email address.</small
+          >
+        </div>
+        <button type="submit" id="notify" class="notifyButton">
+          Notify Me
+        </button>
+      </section>
+      <section class="dashboardSection">
+        <img
+          src="/images/illustration-dashboard.png"
+          alt="dashboard"
+          class="dashboardImg"
         />
-        <small class="notifyError" id="notify_error"
-          >Please provide a valid email address.</small
-        >
-      </div>
-      <button type="submit" id="notify" class="notifyButton">Notify Me</button>
-    </section>
-    <section class="dashboardSection">
-      <img
-        src="/images/illustration-dashboard.png"
-        alt="dashboard"
-        class="dashboardImg"
-      />
-    </section>
-    <section class="socialSection">
-      <div class="socialIcon">
-        <a href="https://twitter.com">
-          <i class="fab fa-twitter socialColor"></i>
-        </a>
-      </div>
-      <div class="socialIcon">
-        <a href="https://facebook.com">
-          <i class="fab fa-facebook-f socialColor"></i>
-        </a>
-      </div>
-      <div class="socialIcon">
-        <a href="https://instagram.com">
-          <i class="fab fa-instagram socialColor"></i>
-        </a>
-      </div>
-    </section>
-    <section class="copySection">
-      <h6 class="copyHeader">&copy; Copyright Ping. All rights reserved.</h6>
-    </section>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/haeke">Edwin</a>.
-      </p>
-    </footer>
+      </section>
+      <section class="socialSection">
+        <div class="socialIcon">
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter socialColor"></i>
+          </a>
+        </div>
+        <div class="socialIcon">
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook-f socialColor"></i>
+          </a>
+        </div>
+        <div class="socialIcon">
+          <a href="https://instagram.com">
+            <i class="fab fa-instagram socialColor"></i>
+          </a>
+        </div>
+      </section>
+      <section class="copySection">
+        <h6 class="copyHeader">&copy; Copyright Ping. All rights reserved.</h6>
+      </section>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/haeke">Edwin</a>.
+        </p>
+      </footer>
+    </main>
     <script src="public/js/validate.js"></script>
   </body>
 </html>

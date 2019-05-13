@@ -11,18 +11,23 @@
 
 ::placeholder {
   color: var(--gray);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
   font-family: var(--bodyFont);
   color: var(--bodyTextColor);
-  margin: 0;
+  margin: 0 auto;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   height: 100vh;
   max-width: 1440px;
+}
+
+.mainContainer {
+  width: 900px;
+  margin: 0 auto;
 }
 
 .headerContainer {
@@ -55,7 +60,7 @@ body {
   text-align: center;
   font-size: 1rem;
   font-weight: 300;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 .inputSection,
@@ -64,6 +69,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.inputSection {
+  margin-bottom: 30px;
 }
 
 .inputGroup {
@@ -106,8 +115,9 @@ body {
 }
 
 .dashboardImg {
-  width: 450px;
-  margin: 10px 0;
+  max-width: 750px;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .socialSection {
@@ -156,10 +166,35 @@ body {
 
 /* mobile media queries */
 @media only screen and (max-width: 490px) {
+  .launchHeader {
+    font-size: 1.3rem;
+  }
+
+  .launchSpan {
+    font-size: 1.3rem;
+  }
+
+  .subHeader {
+    font-size: 0.9rem;
+  }
   .notifyButton {
     width: 334px;
     margin-top: 10px;
     margin-left: 0;
+  }
+
+  .notifyInput {
+    width: 250px;
+    padding: 0.5rem;
+    height: 25px;
+  }
+
+  .notifyError {
+    font-size: 0.8rem;
+  }
+
+  .notifyButton {
+    width: 250px;
   }
 
   .dashboardImg {
