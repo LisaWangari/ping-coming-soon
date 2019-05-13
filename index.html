@@ -48,10 +48,16 @@
     </h3>
     <section class="inputSection">
       <div class="inputGroup">
-        <input class="notifyInput" placeholder="Your email address..." />
-        <small class="notifyError">Please provide a valid email address.</small>
+        <input
+          class="notifyInput"
+          id="notify_input"
+          placeholder="Your email address..."
+        />
+        <small class="notifyError" id="notify_error"
+          >Please provide a valid email address.</small
+        >
       </div>
-      <button class="notifyButton">Notify Me</button>
+      <button type="submit" id="notify" class="notifyButton">Notify Me</button>
     </section>
     <section class="dashboardSection">
       <img
@@ -82,5 +88,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+    <script src="public/js/validate.js"></script>
   </body>
 </html>

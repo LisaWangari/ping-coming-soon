@@ -76,6 +76,7 @@ body {
 
 .notifyError {
   color: var(--lightRed);
+  visibility: hidden;
 }
 
 .notifyInput {
@@ -117,6 +118,15 @@ body {
   margin: 5px;
   border: 1px solid var(--gray);
   border-radius: 50px;
+}
+
+.socialIcon:hover {
+  background: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.socialIcon:hover > .socialColor {
+  color: white;
 }
 
 .socialColor {
