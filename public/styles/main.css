@@ -9,6 +9,11 @@
   --bodyTextColor: #404040;
 }
 
+::placeholder {
+  color: var(--gray);
+  font-size: 20px;
+}
+
 body {
   font-family: var(--bodyFont);
   color: var(--bodyTextColor);
@@ -36,12 +41,39 @@ body {
   font-size: 3.5rem;
   text-align: center;
   font-weight: 300;
+  margin: 10px 0 10px 0;
 }
 
 .launchSpan {
   color: var(--darkBlue);
   font-size: 3.5rem;
   font-weight: 600;
+}
+
+.subHeader {
+  color: var(--darkBlue);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 10px 0 10px 0;
+}
+
+.notifyInput {
+  border-radius: 2rem;
+  border: 1px solid var(--blue);
+  height: 40px;
+  width: 300px;
+}
+
+.notifyButton {
+  background: var(--blue);
+  color: white;
+  font-size: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 2rem;
+  width: 140px;
+  height: 44px;
+  margin-left: 20px;
 }
 
 /* mobile media queries */
