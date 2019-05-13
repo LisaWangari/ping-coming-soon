@@ -1,0 +1,25 @@
+:root {
+  --headerFont: "Libre", Arial, Helvetica, sans-serif;
+  --bodyFont: "Franklin", Arial, Helvetica, sans-serif;
+  --blue: hsl(223, 87%, 63%);
+  --paleBlue: hsl(223, 100%, 88%);
+  --lightRed: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --darkBlue: hsl(209, 33%, 12%);
+  --bodyTextColor: #404040;
+}
+
+body {
+  font-family: var(--bodyFont);
+  color: var(--bodyTextColor);
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+/* mobile media queries */
+@media only screen and (max-width: 375px) {
+}
