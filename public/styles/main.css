@@ -33,12 +33,12 @@ body {
 
 .headerLogo {
   margin: 20px 0;
-  width: 200px;
+  width: 100px;
 }
 
 .launchHeader {
   color: var(--gray);
-  font-size: 3.5rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 300;
   margin: 10px 0 10px 0;
@@ -46,7 +46,7 @@ body {
 
 .launchSpan {
   color: var(--darkBlue);
-  font-size: 3.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -84,8 +84,42 @@ body {
 }
 
 .dashboardImg {
-  width: 600px;
+  width: 450px;
   margin: 10px 0;
+}
+
+.socialSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid var(--gray);
+  border-radius: 50px;
+}
+
+.socialColor {
+  color: var(--blue);
+}
+
+.copySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyHeader {
+  color: var(--gray);
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
 }
 
 /* mobile media queries */
