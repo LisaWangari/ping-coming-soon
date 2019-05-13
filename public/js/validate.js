@@ -11,9 +11,6 @@ const formValidation = event => {
 
     return false;
   } else {
-    document.getElementById("notify_input").style =
-      " border: 1px solid var(--paleBlue)";
-    document.getElementById("notify_error").style = " visibility: hidden";
     return true;
   }
 };

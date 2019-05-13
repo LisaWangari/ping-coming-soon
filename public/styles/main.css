@@ -96,6 +96,13 @@ body {
   height: 44px;
   margin-left: 20px;
   align-self: flex-start;
+  box-shadow: 3px 4px 12px 0 var(--paleBlue);
+}
+
+.notifyButton:hover {
+  background: hsl(223, 100%, 68%);
+  border: 1px solid var(--paleBlue);
+  cursor: pointer;
 }
 
 .dashboardImg {
