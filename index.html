@@ -13,6 +13,10 @@
     />
     <link rel="stylesheet" href="/public/styles//main.css" />
     <link
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
@@ -43,7 +47,10 @@
       Subscribe and get notified
     </h3>
     <section class="inputSection">
-      <input class="notifyInput" placeholder="Your email address..." />
+      <div class="inputGroup">
+        <input class="notifyInput" placeholder="Your email address..." />
+        <small class="notifyError">Please provide a valid email address.</small>
+      </div>
       <button class="notifyButton">Notify Me</button>
     </section>
     <section class="dashboardSection">

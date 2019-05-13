@@ -1,6 +1,6 @@
 :root {
-  --headerFont: "Libre", Arial, Helvetica, sans-serif;
-  --bodyFont: "Franklin", Arial, Helvetica, sans-serif;
+  --headerFont: "Libre Franklin", Arial, Helvetica, sans-serif;
+  --bodyFont: "Libre Franklin", Arial, Helvetica, sans-serif;
   --blue: hsl(223, 87%, 63%);
   --paleBlue: hsl(223, 100%, 88%);
   --lightRed: hsl(354, 100%, 66%);
@@ -53,7 +53,7 @@ body {
 .subHeader {
   color: var(--darkBlue);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   margin: 10px 0 10px 0;
 }
@@ -63,13 +63,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputGroup {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notifyError {
+  color: var(--lightRed);
 }
 
 .notifyInput {
   border-radius: 2rem;
-  border: 1px solid var(--blue);
-  height: 40px;
+  border: 1px solid var(--paleBlue);
   width: 300px;
+  padding: 1rem;
 }
 
 .notifyButton {
@@ -81,6 +94,7 @@ body {
   width: 140px;
   height: 44px;
   margin-left: 20px;
+  align-self: flex-start;
 }
 
 .dashboardImg {
@@ -123,5 +137,10 @@ body {
 }
 
 /* mobile media queries */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 490px) {
+  .notifyButton {
+    width: 334px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
 }
