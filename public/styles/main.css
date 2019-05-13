@@ -121,11 +121,12 @@ body {
 }
 
 .socialIcon:hover {
+  cursor: pointer;
   background: var(--blue);
   border: 1px solid var(--blue);
 }
 
-.socialIcon:hover > .socialColor {
+.socialIcon:hover > a > .socialColor {
   color: white;
 }
 
@@ -152,5 +153,9 @@ body {
     width: 334px;
     margin-top: 10px;
     margin-left: 0;
+  }
+
+  .dashboardImg {
+    max-width: 330px;
   }
 }
