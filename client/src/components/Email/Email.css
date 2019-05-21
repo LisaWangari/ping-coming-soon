@@ -1,0 +1,49 @@
+.emailSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notifyError {
+  color: var(--lightRed);
+}
+
+.notifyInput {
+  border-radius: 2rem;
+  border: 1px solid var(--paleBlue);
+  width: 300px;
+  padding: 1rem;
+}
+
+.notifyForm {
+  display: flex;
+}
+
+.notifyButton {
+  background: var(--blue);
+  color: white;
+  font-size: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 2rem;
+  width: 140px;
+  height: 44px;
+  margin-left: 20px;
+  align-self: flex-start;
+  box-shadow: 3px 4px 12px 0 var(--paleBlue);
+}
+
+.notifyButton:hover {
+  background: hsl(223, 100%, 68%);
+  border: 1px solid var(--paleBlue);
+  cursor: pointer;
+}
