@@ -1,0 +1,26 @@
+:root {
+  --headerFont: "Libre Franklin", Arial, Helvetica, sans-serif;
+  --bodyFont: "Libre Franklin", Arial, Helvetica, sans-serif;
+  --blue: hsl(223, 87%, 63%);
+  --paleBlue: hsl(223, 100%, 88%);
+  --lightRed: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --darkBlue: hsl(209, 33%, 12%);
+  --bodyTextColor: #404040;
+}
+
+::placeholder {
+  color: var(--gray);
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--bodyFont);
+  color: var(--bodyTextColor);
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1440px;
+}
