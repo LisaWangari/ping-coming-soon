@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ping-coming-soon/static/css/main.fe270b43.chunk.css",
+    "main.js": "/ping-coming-soon/static/js/main.39907922.chunk.js",
+    "main.js.map": "/ping-coming-soon/static/js/main.39907922.chunk.js.map",
+    "runtime~main.js": "/ping-coming-soon/static/js/runtime~main.65c7f79f.js",
+    "runtime~main.js.map": "/ping-coming-soon/static/js/runtime~main.65c7f79f.js.map",
+    "static/js/2.6f6949b4.chunk.js": "/ping-coming-soon/static/js/2.6f6949b4.chunk.js",
+    "static/js/2.6f6949b4.chunk.js.map": "/ping-coming-soon/static/js/2.6f6949b4.chunk.js.map",
+    "index.html": "/ping-coming-soon/index.html",
+    "precache-manifest.41bd8e22658e2586404d2dc9226aa04f.js": "/ping-coming-soon/precache-manifest.41bd8e22658e2586404d2dc9226aa04f.js",
+    "service-worker.js": "/ping-coming-soon/service-worker.js",
+    "static/css/main.fe270b43.chunk.css.map": "/ping-coming-soon/static/css/main.fe270b43.chunk.css.map",
+    "static/media/illustration-dashboard.png": "/ping-coming-soon/static/media/illustration-dashboard.92dd5c8f.png",
+    "static/media/logo.svg": "/ping-coming-soon/static/media/logo.ddf22f0b.svg"
+  }
+}
