@@ -1,0 +1,18 @@
+.dashboardImg {
+  max-width: 750px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.dashboardSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboardImg {
+    width: 95%;
+  }
+}

@@ -7,7 +7,7 @@
 }
 
 .inputGroup {
-  width: 300px;
+  /* width: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,4 +46,19 @@
   background: hsl(223, 100%, 68%);
   border: 1px solid var(--paleBlue);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .notifyForm {
+    display: block;
+  }
+
+  .notifyInput {
+    margin-bottom: 10px;
+  }
+
+  .notifyButton {
+    width: 100%;
+    margin-left: 0;
+  }
 }

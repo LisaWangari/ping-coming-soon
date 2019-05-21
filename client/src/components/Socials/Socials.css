@@ -1,0 +1,30 @@
+.socialSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid var(--gray);
+  border-radius: 50px;
+}
+
+.socialIcon:hover {
+  cursor: pointer;
+  background: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.socialIcon:hover > a > .socialColor {
+  color: white;
+}
+
+.socialColor {
+  color: var(--blue);
+}
