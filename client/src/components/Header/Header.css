@@ -1,5 +1,6 @@
 .headerContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -7,4 +8,26 @@
 .headerLogo {
   margin: 20px 0;
   width: 100px;
+}
+
+.launchHeader {
+  color: var(--gray);
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0 10px 0;
+}
+
+.launchSpan {
+  color: var(--darkBlue);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.subHeader {
+  color: var(--darkBlue);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px 0 20px 0;
 }
